@@ -1,0 +1,29 @@
+body {
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+.project-card {
+  background: #1e293b;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.tech-tags span {
+  background: #334155;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 0.9em;
+}
